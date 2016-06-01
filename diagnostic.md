@@ -6,21 +6,21 @@ Record your responses inside the fenced code blocks below each question.
     and what are the main task(s) you perform inside an Ember Route?
 
     ```md
-    <!-- your response here -->
+    You define the routes inside the router and the routes define the models
     ```
 
 1.  What is the command to generate a route named `boston` nested under
     `campus`?
 
     ```md
-    <!-- your response here -->
+    ember g route campus/boston
     ```
 
 1.  Suppose you have a nested route at the URL `/campus/boston`. How would you
     use the `link-to` helper to generate an appropriate link?
 
     ```md
-    <!-- your response here -->
+    {{#link-to 'campus'}}back{{/link-to}}
     ```
 
 1.  Explain **at least** two differences between the following two route
@@ -35,7 +35,9 @@ Record your responses inside the fenced code blocks below each question.
     ```
 
     ```md
-    <!-- your response here -->
+    the first one is nested, so theres a /products path and a /products/:id path
+    something about how the path is definied. i dont know.
+
     ```
 
 1.  Suppose we have the following route definition:
@@ -48,11 +50,11 @@ Record your responses inside the fenced code blocks below each question.
     value `'123'` inside a Route?
 
     ```md
-    <!-- your response here -->
+    Add it to the model? I dont really understand the question.
     ```
 
 1.  Inside a template, how do we reference data provided by a Route?
 
     ```md
-    <!-- your response here -->
+    {{#each model as |something|}}
     ```
